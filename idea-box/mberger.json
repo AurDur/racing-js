@@ -1,0 +1,36 @@
+{
+    "Mini Blog": {
+        "goals": [
+            "Get use to image optimisation",
+            "Create a backend for the articles",
+            "Be better at designing good UI"
+        ],
+        "technos": [
+            "ReactJS",
+            "TypeScript",
+            "MongoDB"
+        ]
+    },
+    "Todo App": {
+        "goals": [
+            "Manage a state with Vanilla JS",
+            "Create native Web Components",
+            "Create a backend for the todos"
+        ],
+        "technos": [
+            "Web Components",
+            "Vanilla JS",
+            "CSS flexbox"
+        ]
+    },
+    "Snake Game": {
+        "goals": [
+            "Good challenge with Vanilla JS",
+            "Learn more about events in JS",
+            "Getting better at Webdesign"
+        ],
+        "technos": [
+            "Vanilla JS"
+        ]
+    }
+}
