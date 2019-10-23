@@ -1,28 +1,43 @@
-# Bienvenue au RacingJS
+# RacingJS
 
-## Créer ta propre branche
+## DÉMARRAGE
 
-1. Créer une branche nommé sous ce format : Bernard Minet => git branch bminet
-2. Va sur ta branche et créer un dossier nommé : session_{num-session}
-3. Créer un dossier de rendu nommé : exo_{nom-exercice}
-4. Push ton exo dans ce dossier
+### Fork le projet
 
-## Déposes des idées de projets
+1. Va sur ce lien : [RacingJS repository](https://github.com/mberger75/racing-js)
+2. Fork le projet en cliquant sur "Fork"
+3. Clone le projet afin de pouvoir le modifier à ta guise
+4. Créer une nouvelle branche ex: Bernard Minet => "bminet"
 
-1. Assures-toi d'être sur la branche master
-2. Créer un fichier json dans le dossier idea-box sous ce format : Bernard Minet => bminet.json
-3. Inspire toi du json existant pour rédiger tes idées
-4. Push ton fichier sur la branch master
+### L'exercice du jour
 
-## L'exo du jour
+1. Créer un dossier de rendu ex: Bernard Minet => "./exo_bminet"
+2. Copie l'exercice se trouvant dans './exercices' vers ton dossier de rendu
+3. Une fois ton exo terminé, "push" tes modifications
+4. Fais une "pull request"
 
-1. Va sur ce lien : [exercices](https://github.com/mberger75/racing-js/tree/master/exercices)
-2. Copie la base d'exercice et résous le
-3. Tu as fini l'exo ? Bien joué 💯 ! Push le sur ta branche !
+### Déposes des idées de projets
 
-## Le projet en équipe
+1. Créer un fichier json dans "./idea-box" ex: "./idea-box/bminet.json"
+2. Inspire toi du json existant pour rédiger tes idées
+3. Une fois ton fichier créer, "push" tes modifications
+4. Fais une "pull request"
 
-1. Choisissez un nom d'équipe
-2. Créez une branche avec le nom de votre équipe tout en minuscule, sans espaces ni caractère spéciaux.
-3. Créez un dossier nommé : projet_{nom-du-projet}
-4. Pusher régulièrement, au fur et à mesure de l'avancement de votre projet.
+## TUTO GIT
+
+### Créer une branche
+```
+$ git branch {branch}
+```
+
+### Aller sur une branche
+```
+$ git checkout {branch}
+```
+
+### Pusher une modif
+```
+$ git add {files}
+$ git commit -m "{message}"
+$ git push origin {branch}
+```
